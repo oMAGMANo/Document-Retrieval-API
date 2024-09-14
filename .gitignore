@@ -1,48 +1,14 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[cod]
-*$py.class
-
-# C extensions
-*.so
 
 # Virtual environment
 venv/
 env/
 .venv/
 
-# SQLite database
-*.db
-*.sqlite3
-
-# Logs
-*.log
-
-# Docker files
-*.env
-
-# FastAPI Static files
-static/
-
-# Cache
-.cache/
-*.swp
-
 # IDE files
 .vscode/
 .idea/
-
-# Python egg files
-*.egg
-*.egg-info/
-dist/
-build/
-eggs/
-
-# Coverage reports
-htmlcov/
-.coverage
-coverage.xml
 
 # Pytest cache
 .pytest_cache/
