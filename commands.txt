@@ -1,0 +1,12 @@
+uvicorn main:app --reload
+
+http://127.0.0.1:8000/health
+
+http://127.0.0.1:8000/search?query=example&top_k=5&threshold=0.5&user_id=testuser
+
+http://127.0.0.1:8000/search
+
+http://127.0.0.1:8000/documents
+
+http://127.0.0.1:8000/search?query=python&top_k=3&threshold=0.5&user_id=testuser
+
