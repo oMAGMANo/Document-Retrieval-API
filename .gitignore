@@ -1,14 +1,3 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-
-# Virtual environment
 venv/
-env/
-.venv/
-
-# IDE files
-.vscode/
-.idea/
-
-# Pytest cache
-.pytest_cache/
+__pycache__/
+test.db

@@ -1,5 +1,5 @@
 from database import Base
-from sqlalchemy import Column, Integer, String, Float
+from sqlalchemy import Column, Integer, String, Float, DateTime, func
 
 class User(Base):
     __tablename__ = "users"
@@ -14,3 +14,11 @@ class Document(Base):
     id = Column(Integer, primary_key=True, index=True)
     content = Column(String)
     score = Column(Float)
+
+class Cache(Base):
+    __tablename__ = "cache"
+
+    id = Column(Integer, primary_key=True, index=True)
+    query = Column(String, unique=True, index=True)
+    result = Column(String)
+    timestamp = Column(DateTime, server_default=func.now())
