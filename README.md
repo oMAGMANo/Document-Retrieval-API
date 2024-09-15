@@ -17,7 +17,7 @@ This project provides a backend service for retrieving documents, designed using
 ### Project Structure
 
 ```
-document-retrieval-local2/
+document-retrieval-system/
 ├── Dockerfile
 ├── README.md
 ├── commands.txt
@@ -40,7 +40,7 @@ document-retrieval-local2/
 
    ```bash
    git clone <repository-url>
-   cd document-retrieval-local2
+   cd document-retrieval-system
    ```
 
 2. **Run Using Docker**
